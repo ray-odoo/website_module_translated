@@ -1,0 +1,12 @@
+<!-- views/page.xml -->
+
+<odoo>
+
+<record id="view_website_new_page" model="website.page">
+    <field name="name">NEW PAGE</field>
+    <field name="url">/new-page</field>
+    <field name="website_published">True</field>
+    <field name="view_id" ref="website_new_page"/>
+</record>
+
+</odoo>
